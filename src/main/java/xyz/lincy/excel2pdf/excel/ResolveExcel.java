@@ -1,37 +1,47 @@
 package xyz.lincy.excel2pdf.excel;
 
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 // 解决excel相关的内容，读取excel、调整行高
 public class ResolveExcel {
 
-    public void readExcel() throws Exception{
+    /**
+     * 读取excel
+     * @return
+     * @throws Exception
+     */
+    public Workbook readExcel(String filePath) throws Exception{
         // 创建 Excel 文件的输入流对象
-        FileInputStream excelFileInputStream = new FileInputStream(ResolveExcel.class.getClassLoader().getResource("1.xls").getFile());
-//        // XSSFWorkbook 就代表一个 Excel 文件
-//        // 创建其对象，就打开这个 Excel 文件
-//        XSSFWorkbook workbook = new XSSFWorkbook(excelFileInputStream);
-//        // 输入流使用后，及时关闭！这是文件流操作中极好的一个习惯！
-//        excelFileInputStream.close();
-//        // XSSFSheet 代表 Excel 文件中的一张表格
-//        // 我们通过 getSheetAt(0) 指定表格索引来获取对应表格
-//        // 注意表格索引从 0 开始！
-//        XSSFSheet sheet = workbook.getSheetAt(0);
+        FileInputStream excelFileInputStream = new FileInputStream(filePath);
 
-//        HSSFWorkbook wb = new HSSFWorkbook(excelFileInputStream);
-//        HSSFSheet sheet = wb.getSheetAt(0);
-
-        Workbook rwb = WorkbookFactory.create(excelFileInputStream);
-        Sheet sheet1 = rwb.getSheetAt(0);
-        Row row = sheet1.getRow(3);
-        Cell cell = row.getCell(0);
-        System.out.println(cell.getStringCellValue());
-
+        Workbook wb = WorkbookFactory.create(excelFileInputStream);
+//        Workbook rwb = WorkbookFactory.create(excelFileInputStream);
+        return wb;
     }
+
+    /**
+     * 改变某一行的行高
+     * @param rowNum
+     * @return
+     */
+    public Workbook changeRowHeight(Workbook wb, int rowNum, int height){
+        Sheet sheet = wb.getSheetAt(0);
+        Row row = sheet.getRow(rowNum);
+        // 获取第0列
+        Cell cell = row.getCell(0);
+        int length = cell.getStringCellValue().length();
+        row.setHeightInPoints(height);
+        return wb;
+    }
+
+    //将excel写回文件
+    public void writeExcel(Workbook wb, String filePath) throws Exception{
+        FileOutputStream outputStream = new FileOutputStream(filePath);
+        wb.write(outputStream);
+    }
+
+
 }
