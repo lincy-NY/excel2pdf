@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7010</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Report">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="402" ss:Span="1"/>
+   <Column ss:Index="3" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s64"><Data ss:Type="String">华润信托·元盛1号集合资金信托计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s64"><Data ss:Type="String">2016年第一季度管理计划报告书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">尊敬的委托人暨受益人：</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;感谢您投资华润信托的信托产品！</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;我司作为受托于2015年7月20日发起设立了“华润信托·元盛1号集合资金信托计划”（以下简称“本信托计划”）。现受托人就本报告期间的信托事务向委托人暨受益人报告如下。本报告书中的内容由受托人负责解释。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">一、信托计划成立和信托计划专户开立情况</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;本信托计划于2015年7月20日成立。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;受托人就本信托计划在保管银行开立了信托计划专用银行账户，账户明细如下：</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;户&#160;名：华润深国投信托有限公司</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;开户行：中国工商银行深圳分行营业部</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;账&#160;号：4000023029201500166</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">二、信托资金运用情况</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;无。 &#10;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">三、信托计划收益情况</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;截止到最近一个开放日2016年02月01日，本信托计划单位净值为0.9992。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">四、信托财产运用重大变动说明</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;见受托人其他通知信息。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">五、涉及诉讼或者损害信托计划财产、受益人利益的情形</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;报告期间，未发生涉及诉讼或损害信托计划财产、受益人利益的情况。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">六、其他内容</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;无。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;感谢您对华润信托的一贯支持！</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">&#160;&#160;&#160;&#160;特别提示：本信托并不保证投资者本金不受损失，证券投资有风险，投资须谨慎！投资者在做出购买决策前，应仔细阅读信托文件，并与投资顾问或受托人进行充分沟通。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;特此公告。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">华润深国投信托有限公司</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">2016年03月31日</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">2015-1189</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <RangeSelection>R11C1:R11C2</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
